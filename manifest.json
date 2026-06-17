@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Extension side-panel issue",
+    "version": "1.0.0",
+    "description": "Extension side-panel issue",
+    "permissions": [
+        "sidePanel"
+    ],
+    "action": {},
+    "side_panel": {
+        "default_path": "side_panel.html"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+      }
+}
